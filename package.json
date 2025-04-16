@@ -1,4 +1,4 @@
-
+{
   "name": "3d-portfolio",
   "private": true,
   "version": "0.0.0",
@@ -10,8 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@gsap/react": "^2.1.2",
-    "@emailjs/browser": "^3.10.0",
     "@react-three/drei": "^10.0.6",
     "@react-three/fiber": "^9.1.2",
     "@react-three/postprocessing": "^3.0.4",
