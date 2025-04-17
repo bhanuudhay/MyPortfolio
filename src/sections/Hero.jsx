@@ -70,12 +70,17 @@ const Hero = () => {
               <br /> Constantly leveling up my skills in DSA and modern tech
               stacks.
             </p>
-            <Button
-              className="md:w-80 md:h-16 w-60 h-12"
-              id="button"
-              text="See my Work"
-              onClick={scrollToProjects} // Trigger scroll to the ShowcaseSection
-            />
+            <div className="flex flex-wrap items-center gap-4">
+              <Button
+                className="md:w-80 md:h-16 w-60 h-12"
+                id="button"
+                text="See my Work"
+                onClick={scrollToProjects}
+              />
+              <a href="cv.pdf" download className="cta-button">
+                View CV
+              </a>
+            </div>
           </div>
         </header>
         <figure>
