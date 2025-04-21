@@ -41,6 +41,10 @@ export const navLinks = [
     name: "Certifications",
     link: "#certifications",
   },
+   {
+    name: "Video Cv",
+    link: "https://youtu.be/TFJWXwJTv2E",
+  },
 ];
 export const abilities = [
   {
