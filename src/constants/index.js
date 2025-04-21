@@ -196,7 +196,7 @@ export const socialImgs = [
   {
     name: "fb",
     imgPath: "/images/fb.png",
-    url: "#fb",
+    url: "https://github.com/bhanuudhay",
   },
   {
     name: "x",
