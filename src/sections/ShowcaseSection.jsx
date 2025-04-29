@@ -94,7 +94,7 @@ const ShowcaseSection = React.forwardRef((props, ref) => {
               </div>
               <h2>Page Heive</h2>
             </div>
-            <div className="project mr-[500px]" ref={project4}>
+            <div className="project" ref={project4}>
               <div className="image-wrapper bg-[#1a1a1a]">
                 <a href="https://ai-safety.netlify.app/">
                   <img
