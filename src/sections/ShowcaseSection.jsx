@@ -10,10 +10,11 @@ const ShowcaseSection = React.forwardRef((props, ref) => {
   const project1 = useRef(null);
   const project2 = useRef(null);
   const project3 = useRef(null);
+  const project4 = useRef(null);
 
   useGSAP(
     () => {
-      const projects = [project1.current, project2.current, project3.current];
+      const projects = [project1.current, project2.current, project3.current , project4.current];
 
       projects.forEach((card, index) => {
         gsap.fromTo(
@@ -92,6 +93,18 @@ const ShowcaseSection = React.forwardRef((props, ref) => {
                 </a>
               </div>
               <h2>Page Heive</h2>
+            </div>
+            <div className="project" ref={project4}>
+              <div className="image-wrapper bg-[#1a1a1a]">
+                <a href="https://ai-safety.netlify.app/">
+                  <img
+                    src="/images/project4.png"
+                    alt="Ai - Dashboard"
+                    style={{ height: "210px", paddingTop: "20px" }}
+                  />
+                </a>
+              </div>
+              <h2> AI Safety Incident Dashboard </h2>
             </div>
           </div>
         </div>
